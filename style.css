@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.list-albums > li:hover {
+	cursor: pointer;
+	color: blue;
+}
+
+.list-albums > li {
+	list-style: none;
+	margin: 5px 0;
+}
+
+.list-img >li {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.photo-text {
+	margin-right: 5px;
+}
