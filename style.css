@@ -21,4 +21,16 @@
 
 .photo-text {
 	margin-right: 5px;
+	color: black;
+}
+
+.link-photos {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.link-photos:hover >p {
+	color: orange;
 }
